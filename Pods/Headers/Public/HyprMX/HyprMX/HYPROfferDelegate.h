@@ -1,1 +1,0 @@
-../../../../HyprMX/HyprMX.framework/Versions/A/Headers/HYPROfferDelegate.h

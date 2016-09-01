@@ -17,7 +17,20 @@
 		993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F41B61B4F9001B586C /* Default-568h@2x.png */; };
 		994327161CF8C83F00F07E4A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 994327151CF8C83F00F07E4A /* libxml2.dylib */; };
 		994327181CF8C84500F07E4A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 994327171CF8C84500F07E4A /* libsqlite3.dylib */; };
+		999C98921D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999C988C1D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework */; };
+		999C98931D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 999C988E1D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist */; };
+		999C98941D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 999C988F1D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc */; };
+		999C98951D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~ipad.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 999C98901D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~ipad.storyboardc */; };
+		999C98961D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~iphone.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 999C98911D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~iphone.storyboardc */; };
+		999C98981D78A0180011D399 /* HeyzapAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999C98971D78A0180011D399 /* HeyzapAds.framework */; };
 		99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CED3811BA0AA1700B43417 /* Media.xcassets */; };
+		99D63E121D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E021D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework */; };
+		99D63E131D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E051D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework */; };
+		99D63E141D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E081D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework */; };
+		99D63E151D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E0B1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework */; };
+		99D63E161D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E0E1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework */; };
+		99D63E171D58FF7D006DBAA6 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99D63E101D58FF7D006DBAA6 /* UnityAds.bundle */; };
+		99D63E181D58FF7D006DBAA6 /* UnityAdsCompiler-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99D63E111D58FF7D006DBAA6 /* UnityAdsCompiler-Info.plist */; };
 		CF25A39DB05B713492F073F6 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB1DD1BAC0AA07FD9B5A33B /* libPods-SampleApp.a */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +54,20 @@
 		994327171CF8C84500F07E4A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		999C988C1D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYBHZMediationTestSuiteEF.framework; sourceTree = "<group>"; };
+		999C988E1D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "FYBHZMediationTestSuiteEF-Info.plist"; sourceTree = "<group>"; };
+		999C988F1D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = FYBHZMediationTestSuiteStoryboard.storyboardc; sourceTree = "<group>"; };
+		999C98901D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~ipad.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = "FYBHZMediationTestSuiteStoryboard~ipad.storyboardc"; sourceTree = "<group>"; };
+		999C98911D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~iphone.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = "FYBHZMediationTestSuiteStoryboard~iphone.storyboardc"; sourceTree = "<group>"; };
+		999C98971D78A0180011D399 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = HeyzapSDK/HeyzapAds.framework; sourceTree = "<group>"; };
 		99CED3811BA0AA1700B43417 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		99D63E021D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_AdColony_2.6.1-r2.framework"; sourceTree = "<group>"; };
+		99D63E051D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_AdMob_7.6.0-r3.framework"; sourceTree = "<group>"; };
+		99D63E081D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_AppLovin_3.2.2-r2.framework"; sourceTree = "<group>"; };
+		99D63E0B1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_FacebookAudienceNetwork_4.10.1-r3.framework"; sourceTree = "<group>"; };
+		99D63E0E1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_UnityAds_1.5.5-r2.framework"; sourceTree = "<group>"; };
+		99D63E101D58FF7D006DBAA6 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		99D63E111D58FF7D006DBAA6 /* UnityAdsCompiler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "UnityAdsCompiler-Info.plist"; sourceTree = "<group>"; };
 		DC1AC2F609D2D9D94A039FC7 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +76,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D63E141D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework in Frameworks */,
+				99D63E131D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework in Frameworks */,
+				99D63E121D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework in Frameworks */,
+				99D63E151D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework in Frameworks */,
+				999C98921D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework in Frameworks */,
+				99D63E161D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework in Frameworks */,
 				994327181CF8C84500F07E4A /* libsqlite3.dylib in Frameworks */,
+				999C98981D78A0180011D399 /* HeyzapAds.framework in Frameworks */,
 				994327161CF8C83F00F07E4A /* libxml2.dylib in Frameworks */,
 				CF25A39DB05B713492F073F6 /* libPods-SampleApp.a in Frameworks */,
 			);
@@ -125,6 +158,13 @@
 		993A82DD1B601F90001B586C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				999C98971D78A0180011D399 /* HeyzapAds.framework */,
+				999C988B1D78A0080011D399 /* FYBHZMediationTestSuiteEF.embeddedframework */,
+				99D63E011D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.embeddedframework */,
+				99D63E041D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.embeddedframework */,
+				99D63E071D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.embeddedframework */,
+				99D63E0A1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.embeddedframework */,
+				99D63E0D1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.embeddedframework */,
 				994327171CF8C84500F07E4A /* libsqlite3.dylib */,
 				994327151CF8C83F00F07E4A /* libxml2.dylib */,
 				996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */,
@@ -132,6 +172,109 @@
 				7BB1DD1BAC0AA07FD9B5A33B /* libPods-SampleApp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		999C988B1D78A0080011D399 /* FYBHZMediationTestSuiteEF.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				999C988C1D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework */,
+				999C988D1D78A0080011D399 /* Resources */,
+			);
+			name = FYBHZMediationTestSuiteEF.embeddedframework;
+			path = TestSuite/FYBHZMediationTestSuiteEF.embeddedframework;
+			sourceTree = "<group>";
+		};
+		999C988D1D78A0080011D399 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				999C988E1D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist */,
+				999C988F1D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc */,
+				999C98901D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~ipad.storyboardc */,
+				999C98911D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~iphone.storyboardc */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99D63E011D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				99D63E021D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework */,
+				99D63E031D58FF7D006DBAA6 /* Resources */,
+			);
+			path = "Fyber_AdColony_2.6.1-r2.embeddedframework";
+			sourceTree = "<group>";
+		};
+		99D63E031D58FF7D006DBAA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99D63E041D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				99D63E051D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework */,
+				99D63E061D58FF7D006DBAA6 /* Resources */,
+			);
+			path = "Fyber_AdMob_7.6.0-r3.embeddedframework";
+			sourceTree = "<group>";
+		};
+		99D63E061D58FF7D006DBAA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99D63E071D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				99D63E081D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework */,
+				99D63E091D58FF7D006DBAA6 /* Resources */,
+			);
+			path = "Fyber_AppLovin_3.2.2-r2.embeddedframework";
+			sourceTree = "<group>";
+		};
+		99D63E091D58FF7D006DBAA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99D63E0A1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				99D63E0B1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework */,
+				99D63E0C1D58FF7D006DBAA6 /* Resources */,
+			);
+			path = "Fyber_FacebookAudienceNetwork_4.10.1-r3.embeddedframework";
+			sourceTree = "<group>";
+		};
+		99D63E0C1D58FF7D006DBAA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99D63E0D1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				99D63E0E1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework */,
+				99D63E0F1D58FF7D006DBAA6 /* Resources */,
+			);
+			path = "Fyber_UnityAds_1.5.5-r2.embeddedframework";
+			sourceTree = "<group>";
+		};
+		99D63E0F1D58FF7D006DBAA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99D63E101D58FF7D006DBAA6 /* UnityAds.bundle */,
+				99D63E111D58FF7D006DBAA6 /* UnityAdsCompiler-Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,11 +339,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D63E171D58FF7D006DBAA6 /* UnityAds.bundle in Resources */,
 				993A82C01B5F1534001B586C /* Main.storyboard in Resources */,
+				999C98931D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist in Resources */,
+				999C98961D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~iphone.storyboardc in Resources */,
 				993A82C51B5F1534001B586C /* LaunchScreen.xib in Resources */,
 				99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */,
+				99D63E181D58FF7D006DBAA6 /* UnityAdsCompiler-Info.plist in Resources */,
 				993A82F61B61B4F9001B586C /* Default@2x.png in Resources */,
+				999C98941D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc in Resources */,
 				993A82F51B61B4F9001B586C /* Default.png in Resources */,
+				999C98951D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard~ipad.storyboardc in Resources */,
 				993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,9 +530,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FYBHZMediationTestSuiteEF.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_AdColony_2.6.1-r2.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_AdMob_7.6.0-r3.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_AppLovin_3.2.2-r2.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_FacebookAudienceNetwork_4.10.1-r3.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_UnityAds_1.5.5-r2.embeddedframework",
+					"$(PROJECT_DIR)/TestSuite/FYBHZMediationTestSuiteEF.embeddedframework",
+					"$(PROJECT_DIR)/HeyzapSDK",
 				);
 				INFOPLIST_FILE = SampleApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -394,8 +551,6 @@
 					"-l\"z\"",
 					"-framework",
 					"\"AVFoundation\"",
-					"-framework",
-					"\"AdColony\"",
 					"-framework",
 					"\"AudioToolbox\"",
 					"-framework",
@@ -443,9 +598,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FYBHZMediationTestSuiteEF.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_AdColony_2.6.1-r2.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_AdMob_7.6.0-r3.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_AppLovin_3.2.2-r2.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_FacebookAudienceNetwork_4.10.1-r3.embeddedframework",
+					"$(PROJECT_DIR)/Fyber_UnityAds_1.5.5-r2.embeddedframework",
+					"$(PROJECT_DIR)/TestSuite/FYBHZMediationTestSuiteEF.embeddedframework",
+					"$(PROJECT_DIR)/HeyzapSDK",
 				);
 				INFOPLIST_FILE = SampleApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,8 +619,6 @@
 					"-l\"z\"",
 					"-framework",
 					"\"AVFoundation\"",
-					"-framework",
-					"\"AdColony\"",
 					"-framework",
 					"\"AudioToolbox\"",
 					"-framework",

@@ -12,7 +12,7 @@
 
 typedef enum {
     kAdUnitSegmentInterstitial,
-    kAdUnitSegmentVideo,
+//    kAdUnitSegmentVideo,
     kAdUnitSegmentIncentivized,
     kAdUnitSegmentBanner,
 } kAdUnitSegment;
@@ -29,7 +29,7 @@ typedef enum {
 
 @property (nonatomic) UIButton *showBannerButton;
 @property (nonatomic) UIButton *hideBannerButton;
-@property (nonatomic, strong) HZBannerAd *currentBannerAd;
+//@property (nonatomic, strong) HZBannerAd *currentBannerAd; // no longer needed... HZBannerAdController holds a reference for us
 
 @property (nonatomic) NSArray *bannerControls;
 @property (nonatomic) NSArray *nonBannerControls;
@@ -69,13 +69,15 @@ typedef enum {
     
     // setup Heyzap callbacks
     [HZInterstitialAd setDelegate:self];
-    [HZVideoAd setDelegate:self];
+//    [HZVideoAd setDelegate:self]; // now unavailable
     [HZIncentivizedAd setDelegate:self];
-    [HeyzapAds networkCallbackWithBlock:^(NSString *network, NSString *callback) {
-        [self logToConsole:[NSString stringWithFormat:@"Network: %@ Callback: %@", network, callback]];
-        [self changeColorOfShowButton];
-    }];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(remoteDataRefreshed:) name:HZRemoteDataRefreshedNotification object:nil];
+
+// now unavailable
+//    [HeyzapAds networkCallbackWithBlock:^(NSString *network, NSString *callback) {
+//        [self logToConsole:[NSString stringWithFormat:@"Network: %@ Callback: %@", network, callback]];
+//        [self changeColorOfShowButton];
+//    }];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(remoteDataRefreshed:) name:HZRemoteDataRefreshedNotification object:nil];
     
     // Setup buttons
     
@@ -154,7 +156,10 @@ typedef enum {
     });
     [self.scrollView addSubview:availableButton];
     
-    self.adUnitSegmentedControl = [[UISegmentedControl alloc] initWithItems: @[@"Interstitial", @"Video", @"Incentivized", @"Banner"]];
+    self.adUnitSegmentedControl = [[UISegmentedControl alloc] initWithItems: @[@"Interstitial",
+                                                                               //@"Video",
+                                                                               @"Incentivized",
+                                                                               @"Banner"]];
     self.adUnitSegmentedControl.frame = CGRectMake(ButtonXSpacing, CGRectGetMaxY(availableButton.frame)+ButtonYSpacing, self.view.frame.size.width - ButtonXSpacing*2, ButtonHeight);
     self.adUnitSegmentedControl.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [self.adUnitSegmentedControl setSelectedSegmentIndex: 0];
@@ -251,9 +256,9 @@ typedef enum {
         case kAdUnitSegmentInterstitial:
             [self setShowButtonOn:[HZInterstitialAd isAvailableForTag:adTag]];
             break;
-        case kAdUnitSegmentVideo:
-            [self setShowButtonOn:[HZVideoAd isAvailableForTag:adTag]];
-            break;
+//        case kAdUnitSegmentVideo:
+//            [self setShowButtonOn:[HZVideoAd isAvailableForTag:adTag]];
+//            break;
         case kAdUnitSegmentIncentivized:
             [self setShowButtonOn:[HZIncentivizedAd isAvailableForTag:adTag]];
             break;
@@ -285,9 +290,9 @@ typedef enum {
         case kAdUnitSegmentInterstitial:
             [HZInterstitialAd fetchForTag:adTag withCompletion:completionBlock];
             break;
-        case kAdUnitSegmentVideo:
-            [HZVideoAd fetchForTag:adTag withCompletion:completionBlock];
-            break;
+//        case kAdUnitSegmentVideo:
+//            [HZVideoAd fetchForTag:adTag withCompletion:completionBlock];
+//            break;
         case kAdUnitSegmentIncentivized:
             [HZIncentivizedAd fetchForTag:adTag withCompletion:completionBlock];
             break;
@@ -311,10 +316,10 @@ typedef enum {
             NSLog(@"Showing Interstitial");
             [HZInterstitialAd showForTag:adTag];
             break;
-        case kAdUnitSegmentVideo:
-            NSLog(@"Showing Video");
-            [HZVideoAd showForTag:adTag];
-            break;
+//        case kAdUnitSegmentVideo:
+//            NSLog(@"Showing Video");
+//            [HZVideoAd showForTag:adTag];
+//            break;
         case kAdUnitSegmentIncentivized:
             NSLog(@"Showing Incentivized");
             [HZIncentivizedAd showForTag:adTag];
@@ -331,29 +336,36 @@ typedef enum {
     
     HZBannerAdOptions *opts = [[HZBannerAdOptions alloc] init];
     opts.presentingViewController = self;
-    opts.tag = [self adTagText];
+    opts.tag = [self adTagText]; // now unused
     
     if (UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
         opts.admobBannerSize = HZAdMobBannerSizeFlexibleWidthLandscape;
     }
     
-    [HZBannerAd placeBannerInView:self.view
-                         position:HZBannerPositionBottom
-                          options:opts
-                          success:^(HZBannerAd *banner) {
-                              banner.delegate = self;
-                              self.hideBannerButton.enabled = YES;
-                              self.currentBannerAd = banner;
-                          } failure:^(NSError *error) {
-                              self.showBannerButton.enabled = YES;
-                              [self logToConsole:[NSString stringWithFormat:@"Failed to place banner ad. Error: %@", error]];
-                          }];
+//    [HZBannerAd placeBannerInView:self.view
+//                         position:HZBannerPositionBottom
+//                          options:opts
+//                          success:^(HZBannerAd *banner) {
+//                              banner.delegate = self;
+//                              self.hideBannerButton.enabled = YES;
+//                              self.currentBannerAd = banner;
+//                          } failure:^(NSError *error) {
+//                              self.showBannerButton.enabled = YES;
+//                              [self logToConsole:[NSString stringWithFormat:@"Failed to place banner ad. Error: %@", error]];
+//                          }];
+    
+    // new 10.0.0 way to show a banner
+    [[HZBannerAdController sharedInstance] placeBannerAtPosition:HZBannerPositionBottom options:opts success:^(UIView *banner) {
+        self.hideBannerButton.enabled = YES;
+    } failure:^(NSError *error) {
+        self.showBannerButton.enabled = YES;
+        [self logToConsole:[NSString stringWithFormat:@"Failed to place banner ad. Error: %@", error]];
+    }];
 }
 
 - (void)hideBannerButtonPressed:(id)sender {
     [self.view endEditing:YES];
-    [self.currentBannerAd removeFromSuperview];
-    self.currentBannerAd = nil;
+    [[HZBannerAdController sharedInstance] destroyBanner];
     
     self.hideBannerButton.enabled = NO;
     self.showBannerButton.enabled = YES;
@@ -405,10 +417,10 @@ typedef enum {
             available = [HZInterstitialAd isAvailableForTag:adTag];
             adType = @"An interstitial";
             break;
-        case kAdUnitSegmentVideo:
-            available = [HZVideoAd isAvailableForTag:adTag];
-            adType = @"A video";
-            break;
+//        case kAdUnitSegmentVideo:
+//            available = [HZVideoAd isAvailableForTag:adTag];
+//            adType = @"A video";
+//            break;
         case kAdUnitSegmentIncentivized:
             available = [HZIncentivizedAd isAvailableForTag:adTag];
             adType = @"An incentivized";
