@@ -15,8 +15,8 @@ target 'SampleApp' do
 #    pod 'Google-Mobile-Ads-SDK' # Maintained by Google
 #    pod 'HyprMX' # Vendored by Heyzap
 #    pod 'HZInMobi' # Vendored by Heyzap
-    pod 'Leadbolt' # Vendored by Heyzap
+#    pod 'Leadbolt' # Vendored by Heyzap
 #    pod 'UnityAds' # Vendored by Heyzap
 #    pod 'VungleSDK-iOS' # Maintained by Vungle
-
+pod 'Masonry'
 end

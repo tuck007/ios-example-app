@@ -1,12 +1,12 @@
 PODS:
-  - Leadbolt (6.0)
+  - Masonry (1.0.1)
 
 DEPENDENCIES:
-  - Leadbolt
+  - Masonry
 
 SPEC CHECKSUMS:
-  Leadbolt: 2599cdd53890689158e94bd93268ae118b43ed1e
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
 
-PODFILE CHECKSUM: 0877132cdd8db144f2e06c72b435f4eeee97e316
+PODFILE CHECKSUM: 79c32ed09af11335f1925f1c9428eb1b599daca6
 
 COCOAPODS: 1.0.1

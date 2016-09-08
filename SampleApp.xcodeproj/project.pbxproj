@@ -15,8 +15,6 @@
 		993A82F51B61B4F9001B586C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F21B61B4F9001B586C /* Default.png */; };
 		993A82F61B61B4F9001B586C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F31B61B4F9001B586C /* Default@2x.png */; };
 		993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F41B61B4F9001B586C /* Default-568h@2x.png */; };
-		994327161CF8C83F00F07E4A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 994327151CF8C83F00F07E4A /* libxml2.dylib */; };
-		994327181CF8C84500F07E4A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 994327171CF8C84500F07E4A /* libsqlite3.dylib */; };
 		999C98921D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999C988C1D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework */; };
 		999C98931D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 999C988E1D78A0080011D399 /* FYBHZMediationTestSuiteEF-Info.plist */; };
 		999C98941D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 999C988F1D78A0080011D399 /* FYBHZMediationTestSuiteStoryboard.storyboardc */; };
@@ -25,7 +23,6 @@
 		999C98981D78A0180011D399 /* HeyzapAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999C98971D78A0180011D399 /* HeyzapAds.framework */; };
 		99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CED3811BA0AA1700B43417 /* Media.xcassets */; };
 		99D63E121D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E021D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework */; };
-		99D63E131D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E051D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework */; };
 		99D63E141D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E081D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework */; };
 		99D63E151D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E0B1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework */; };
 		99D63E161D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D63E0E1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework */; };
@@ -50,8 +47,6 @@
 		993A82F21B61B4F9001B586C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		993A82F31B61B4F9001B586C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		993A82F41B61B4F9001B586C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		994327151CF8C83F00F07E4A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		994327171CF8C84500F07E4A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		999C988C1D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYBHZMediationTestSuiteEF.framework; sourceTree = "<group>"; };
@@ -77,14 +72,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D63E141D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.framework in Frameworks */,
-				99D63E131D58FF7D006DBAA6 /* Fyber_AdMob_7.6.0-r3.framework in Frameworks */,
 				99D63E121D58FF7D006DBAA6 /* Fyber_AdColony_2.6.1-r2.framework in Frameworks */,
 				99D63E151D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.framework in Frameworks */,
 				999C98921D78A0080011D399 /* FYBHZMediationTestSuiteEF.framework in Frameworks */,
 				99D63E161D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.framework in Frameworks */,
-				994327181CF8C84500F07E4A /* libsqlite3.dylib in Frameworks */,
 				999C98981D78A0180011D399 /* HeyzapAds.framework in Frameworks */,
-				994327161CF8C83F00F07E4A /* libxml2.dylib in Frameworks */,
 				CF25A39DB05B713492F073F6 /* libPods-SampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,8 +157,6 @@
 				99D63E071D58FF7D006DBAA6 /* Fyber_AppLovin_3.2.2-r2.embeddedframework */,
 				99D63E0A1D58FF7D006DBAA6 /* Fyber_FacebookAudienceNetwork_4.10.1-r3.embeddedframework */,
 				99D63E0D1D58FF7D006DBAA6 /* Fyber_UnityAds_1.5.5-r2.embeddedframework */,
-				994327171CF8C84500F07E4A /* libsqlite3.dylib */,
-				994327151CF8C83F00F07E4A /* libxml2.dylib */,
 				996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */,
 				991C4A881BC4783B006309A8 /* libxml2.tbd */,
 				7BB1DD1BAC0AA07FD9B5A33B /* libPods-SampleApp.a */,
@@ -526,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -594,7 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
