@@ -4,7 +4,7 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 #import "FYBRequestParameters.h"
 
